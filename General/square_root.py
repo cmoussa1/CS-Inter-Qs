@@ -12,6 +12,8 @@ print square_root(9)
 print square_root(16)
 
 # Our own implementation...
+# Uses Babylonian method
+# https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 def own_square_root(n):
     error_margin = 1
     if n < 0:
